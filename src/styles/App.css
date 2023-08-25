@@ -1,12 +1,35 @@
-h1 {
-    color: #27aedb;
-    text-align: center;
-    }
-    
-
-button{
-    color: #27aedb;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+html{
+    scroll-behavior: smooth;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.App{
+    display: flex;
+}
+.input-container{
+    width: 50vw;
+    height: 100vh;
+    background-color: antiquewhite;
+    padding: 20px;
+    font-size: 24px;
+}
+input{
+    background-color: transparent;
+    width: 100%;
+    font-size: 24px;
+    border: none;
+    outline: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+.display-container{
+    width: 50vw;
+    height: 100vh;
+    background-color: rgb(126, 123, 119);
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
 }
