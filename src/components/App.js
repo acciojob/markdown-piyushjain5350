@@ -9,7 +9,7 @@ const App=()=>{
             <div className="input-container">
                 <textarea placeholder='Enter Something' onChange={(e)=>setVal(e.target.value) }></textarea>
             </div>
-            <div className="display-container">
+            <div className="preview">
                 <p>{val}</p>
             </div>
         </div>
