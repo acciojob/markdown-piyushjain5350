@@ -10,10 +10,10 @@ const App=()=>{
                 <textarea placeholder='Enter Something' onChange={(e)=>setVal(e.target.value) }></textarea>
             </div>
             <div className="preview">
-                <p>{val}</p>
+                <h1>{val}</h1>
             </div>
         </div>
     )
-}
+}   
 
 export default App;
