@@ -5,9 +5,9 @@ import '../styles/App.css'
 const App=()=>{
     let [val,setVal]=useState('');
     return(
-        <div className="App">
+        <div className="app">
             <div className="input-container">
-                <input type="text" placeholder='Enter something' onChange={(e)=>setVal(e.target.value)} />
+                <textarea placeholder='Enter Something' onChange={(e)=>setVal(e.target.value) }></textarea>
             </div>
             <div className="display-container">
                 <p>{val}</p>

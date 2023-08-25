@@ -6,7 +6,7 @@ html{
     margin: 0;
     padding: 0;
 }
-.App{
+.app{
     display: flex;
 }
 .input-container{
@@ -16,14 +16,13 @@ html{
     padding: 20px;
     font-size: 24px;
 }
-input{
-    background-color: transparent;
+
+textarea{
     width: 100%;
-    font-size: 24px;
+    height: 100%;
+    background-color: transparent;
     border: none;
     outline: none;
-    display: flex;
-    flex-wrap: wrap;
 }
 .display-container{
     width: 50vw;
